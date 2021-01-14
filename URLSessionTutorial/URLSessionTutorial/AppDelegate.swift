@@ -11,12 +11,23 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    // TODO 17
+    var backgroundSessionCompletionHandler: (() -> Void)?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
+    
+    // TODO 18
+    func application(
+      _ application: UIApplication,
+      handleEventsForBackgroundURLSession
+        handleEventsForBackgroundURLSessionidentifier: String,
+      completionHandler: @escaping () -> Void) {
+        backgroundSessionCompletionHandler = completionHandler
+    }
+
 
     // MARK: UISceneSession Lifecycle
 

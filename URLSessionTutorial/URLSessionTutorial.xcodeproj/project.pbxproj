@@ -9,12 +9,30 @@
 /* Begin PBXBuildFile section */
 		CE68A66B25AFEC19007148CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A66A25AFEC19007148CC /* AppDelegate.swift */; };
 		CE68A66D25AFEC19007148CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A66C25AFEC19007148CC /* SceneDelegate.swift */; };
-		CE68A66F25AFEC19007148CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A66E25AFEC19007148CC /* ViewController.swift */; };
+		CE68A66F25AFEC19007148CC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A66E25AFEC19007148CC /* SearchViewController.swift */; };
 		CE68A67225AFEC19007148CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE68A67025AFEC19007148CC /* Main.storyboard */; };
 		CE68A67425AFEC1A007148CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE68A67325AFEC1A007148CC /* Assets.xcassets */; };
 		CE68A67725AFEC1A007148CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE68A67525AFEC1A007148CC /* LaunchScreen.storyboard */; };
 		CE68A68225AFEC1B007148CC /* URLSessionTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A68125AFEC1B007148CC /* URLSessionTutorialTests.swift */; };
 		CE68A68D25AFEC1B007148CC /* URLSessionTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A68C25AFEC1B007148CC /* URLSessionTutorialUITests.swift */; };
+		CE68A69C25AFEDB1007148CC /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A69B25AFEDB1007148CC /* BaseNavigationController.swift */; };
+		CE68A69E25AFEDEC007148CC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A69D25AFEDEC007148CC /* BaseViewController.swift */; };
+		CE68A6A025AFEE07007148CC /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A69F25AFEE07007148CC /* AlertService.swift */; };
+		CE68A6A225AFEE38007148CC /* BaseAlert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE68A6A125AFEE38007148CC /* BaseAlert.storyboard */; };
+		CE68A6A425AFEE6C007148CC /* ShowAlertWithConfirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A6A325AFEE6C007148CC /* ShowAlertWithConfirm.swift */; };
+		CE68A6A625AFEE92007148CC /* ShowAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A6A525AFEE92007148CC /* ShowAlertViewController.swift */; };
+		CE68A6A925AFEEBD007148CC /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A6A825AFEEBD007148CC /* UIView.swift */; };
+		CE68A6AC25AFF0B7007148CC /* QueryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A6AB25AFF0B7007148CC /* QueryService.swift */; };
+		CE68A6B125AFF243007148CC /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A6AF25AFF243007148CC /* TrackCell.swift */; };
+		CE68A6B225AFF243007148CC /* TrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE68A6B025AFF243007148CC /* TrackCell.xib */; };
+		CE68A6B425AFF267007148CC /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A6B325AFF267007148CC /* BaseTableViewCell.swift */; };
+		CE68A6B825AFF471007148CC /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A6B725AFF471007148CC /* Track.swift */; };
+		CE68A6BA25AFF504007148CC /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A6B925AFF504007148CC /* DownloadService.swift */; };
+		CE68A6F825AFFAB1007148CC /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A6F725AFFAB1007148CC /* Download.swift */; };
+		CE68A6FC25B0435C007148CC /* PlayVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A6FB25B0435C007148CC /* PlayVideoViewController.swift */; };
+		CE68A6FE25B04A4F007148CC /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A6FD25B04A4F007148CC /* WebViewViewController.swift */; };
+		CE68A70125B04C92007148CC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE68A70025B04C92007148CC /* WebKit.framework */; };
+		CE68A70325B04F61007148CC /* MasterWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A70225B04F61007148CC /* MasterWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +56,7 @@
 		CE68A66725AFEC19007148CC /* URLSessionTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLSessionTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE68A66A25AFEC19007148CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE68A66C25AFEC19007148CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE68A66E25AFEC19007148CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE68A66E25AFEC19007148CC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		CE68A67125AFEC19007148CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE68A67325AFEC1A007148CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE68A67625AFEC1A007148CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +67,24 @@
 		CE68A68825AFEC1B007148CC /* URLSessionTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLSessionTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE68A68C25AFEC1B007148CC /* URLSessionTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionTutorialUITests.swift; sourceTree = "<group>"; };
 		CE68A68E25AFEC1B007148CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE68A69B25AFEDB1007148CC /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		CE68A69D25AFEDEC007148CC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CE68A69F25AFEE07007148CC /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		CE68A6A125AFEE38007148CC /* BaseAlert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BaseAlert.storyboard; sourceTree = "<group>"; };
+		CE68A6A325AFEE6C007148CC /* ShowAlertWithConfirm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertWithConfirm.swift; sourceTree = "<group>"; };
+		CE68A6A525AFEE92007148CC /* ShowAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertViewController.swift; sourceTree = "<group>"; };
+		CE68A6A825AFEEBD007148CC /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		CE68A6AB25AFF0B7007148CC /* QueryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryService.swift; sourceTree = "<group>"; };
+		CE68A6AF25AFF243007148CC /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		CE68A6B025AFF243007148CC /* TrackCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackCell.xib; sourceTree = "<group>"; };
+		CE68A6B325AFF267007148CC /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		CE68A6B725AFF471007148CC /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		CE68A6B925AFF504007148CC /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
+		CE68A6F725AFFAB1007148CC /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		CE68A6FB25B0435C007148CC /* PlayVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideoViewController.swift; sourceTree = "<group>"; };
+		CE68A6FD25B04A4F007148CC /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		CE68A70025B04C92007148CC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		CE68A70225B04F61007148CC /* MasterWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE68A70125B04C92007148CC /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +120,7 @@
 				CE68A68025AFEC1B007148CC /* URLSessionTutorialTests */,
 				CE68A68B25AFEC1B007148CC /* URLSessionTutorialUITests */,
 				CE68A66825AFEC19007148CC /* Products */,
+				CE68A6FF25B04C91007148CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +137,18 @@
 		CE68A66925AFEC19007148CC /* URLSessionTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				CE68A6B625AFF468007148CC /* Model */,
+				CE68A6AD25AFF226007148CC /* Cells */,
+				CE68A6AA25AFF0AB007148CC /* Network */,
+				CE68A6A725AFEEB1007148CC /* Extension */,
+				CE68A69A25AFED81007148CC /* Base */,
 				CE68A66A25AFEC19007148CC /* AppDelegate.swift */,
 				CE68A66C25AFEC19007148CC /* SceneDelegate.swift */,
-				CE68A66E25AFEC19007148CC /* ViewController.swift */,
-				CE68A67025AFEC19007148CC /* Main.storyboard */,
-				CE68A67325AFEC1A007148CC /* Assets.xcassets */,
-				CE68A67525AFEC1A007148CC /* LaunchScreen.storyboard */,
+				CE68A66E25AFEC19007148CC /* SearchViewController.swift */,
+				CE68A6FB25B0435C007148CC /* PlayVideoViewController.swift */,
+				CE68A6FD25B04A4F007148CC /* WebViewViewController.swift */,
+				CE68A70225B04F61007148CC /* MasterWebViewController.swift */,
+				CE68A6B525AFF2EE007148CC /* Resources */,
 				CE68A67825AFEC1A007148CC /* Info.plist */,
 			);
 			path = URLSessionTutorial;
@@ -126,6 +170,81 @@
 				CE68A68E25AFEC1B007148CC /* Info.plist */,
 			);
 			path = URLSessionTutorialUITests;
+			sourceTree = "<group>";
+		};
+		CE68A69A25AFED81007148CC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CE68A69B25AFEDB1007148CC /* BaseNavigationController.swift */,
+				CE68A6A125AFEE38007148CC /* BaseAlert.storyboard */,
+				CE68A69D25AFEDEC007148CC /* BaseViewController.swift */,
+				CE68A69F25AFEE07007148CC /* AlertService.swift */,
+				CE68A6A325AFEE6C007148CC /* ShowAlertWithConfirm.swift */,
+				CE68A6A525AFEE92007148CC /* ShowAlertViewController.swift */,
+				CE68A6B325AFF267007148CC /* BaseTableViewCell.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CE68A6A725AFEEB1007148CC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE68A6A825AFEEBD007148CC /* UIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CE68A6AA25AFF0AB007148CC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CE68A6AB25AFF0B7007148CC /* QueryService.swift */,
+				CE68A6B925AFF504007148CC /* DownloadService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CE68A6AD25AFF226007148CC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE68A6AE25AFF22E007148CC /* TrackCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CE68A6AE25AFF22E007148CC /* TrackCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE68A6AF25AFF243007148CC /* TrackCell.swift */,
+				CE68A6B025AFF243007148CC /* TrackCell.xib */,
+			);
+			path = TrackCell;
+			sourceTree = "<group>";
+		};
+		CE68A6B525AFF2EE007148CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE68A67025AFEC19007148CC /* Main.storyboard */,
+				CE68A67325AFEC1A007148CC /* Assets.xcassets */,
+				CE68A67525AFEC1A007148CC /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE68A6B625AFF468007148CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE68A6B725AFF471007148CC /* Track.swift */,
+				CE68A6F725AFFAB1007148CC /* Download.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE68A6FF25B04C91007148CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE68A70025B04C92007148CC /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +352,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE68A67725AFEC1A007148CC /* LaunchScreen.storyboard in Resources */,
+				CE68A6B225AFF243007148CC /* TrackCell.xib in Resources */,
 				CE68A67425AFEC1A007148CC /* Assets.xcassets in Resources */,
+				CE68A6A225AFEE38007148CC /* BaseAlert.storyboard in Resources */,
 				CE68A67225AFEC19007148CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +380,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE68A66F25AFEC19007148CC /* ViewController.swift in Sources */,
+				CE68A69E25AFEDEC007148CC /* BaseViewController.swift in Sources */,
+				CE68A6BA25AFF504007148CC /* DownloadService.swift in Sources */,
+				CE68A69C25AFEDB1007148CC /* BaseNavigationController.swift in Sources */,
+				CE68A6AC25AFF0B7007148CC /* QueryService.swift in Sources */,
+				CE68A6FE25B04A4F007148CC /* WebViewViewController.swift in Sources */,
+				CE68A6FC25B0435C007148CC /* PlayVideoViewController.swift in Sources */,
+				CE68A6A025AFEE07007148CC /* AlertService.swift in Sources */,
+				CE68A6B425AFF267007148CC /* BaseTableViewCell.swift in Sources */,
+				CE68A66F25AFEC19007148CC /* SearchViewController.swift in Sources */,
+				CE68A6B125AFF243007148CC /* TrackCell.swift in Sources */,
 				CE68A66B25AFEC19007148CC /* AppDelegate.swift in Sources */,
+				CE68A70325B04F61007148CC /* MasterWebViewController.swift in Sources */,
+				CE68A6F825AFFAB1007148CC /* Download.swift in Sources */,
 				CE68A66D25AFEC19007148CC /* SceneDelegate.swift in Sources */,
+				CE68A6A625AFEE92007148CC /* ShowAlertViewController.swift in Sources */,
+				CE68A6B825AFF471007148CC /* Track.swift in Sources */,
+				CE68A6A925AFEEBD007148CC /* UIView.swift in Sources */,
+				CE68A6A425AFEE6C007148CC /* ShowAlertWithConfirm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
